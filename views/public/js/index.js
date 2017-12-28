@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   setTimeout(function(){
     location = ''
-  },60000)
+  },600000)
 
 function coinMarketCapAPICall(){
 	var queryUrl = "https://api.coinmarketcap.com/v1/ticker/?limit=0";
