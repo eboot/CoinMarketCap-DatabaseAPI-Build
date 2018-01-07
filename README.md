@@ -4,4 +4,4 @@ This is built to pull data from coinmarketcap.com and push in to a MYSQL databas
 
 Feel free to use.  
 
-Pat Doyle
+Pat Doyle 2018
