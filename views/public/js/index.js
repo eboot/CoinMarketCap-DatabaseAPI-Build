@@ -1,11 +1,12 @@
 $(document).ready(function(){
 	console.log("Working");
 	coinMarketCapAPICall();
+	console.log("newCommentTest");
 });
 
   setTimeout(function(){
     location = ''
-  },600000)
+  },300000);
 
 function coinMarketCapAPICall(){
 	var queryUrl = "https://api.coinmarketcap.com/v1/ticker/?limit=0";
