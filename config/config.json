@@ -1,7 +1,7 @@
 { 
   "development": {
     "username": "root",
-    "password": null,
+    "password": "Fourdown1!",
     "database": "crypto_price_db",
     "host": "localhost",
     "dialect": "mysql"
