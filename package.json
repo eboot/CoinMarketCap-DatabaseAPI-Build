@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
     "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
     "mysql2": "^1.5.1",
     "nodemon": "^1.14.3",
+    "request": "^2.83.0",
     "sequelize": "^4.28.6"
   }
 }

@@ -26,5 +26,20 @@ module.exports = function(app){
 			res.json(dbPost);
 			console.log(dbPost);
 		});
+	});
+
+	// Scrape - Post Route
+	app.post("/api/exchange-volume", function(req, res){
+		db.exchangeVolume.create({
+			exchange_name: req.body.exchangeName,
+			twentyfour_hour_volume: req.body.exchangeTwentyHourVolume,
+			website: "www."+req.body.exchangeName+".com"
+		}).then(function(dbPost){
+			res.json(dbPost);
+			console.log(dbPost);
+		})
 	})
+
+
+
 }
